@@ -3,19 +3,26 @@
 .env.*
 !.env.example
 
-# Node.js
-node_modules/
-dist/
-build/
-
 # Python
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime data (keep the directory itself)
+data/*.json
+!data/.gitkeep
+
+# Build output
+dist/
+build/
 
 # Editors and operating systems
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
