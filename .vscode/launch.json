@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TaskFlow: 查看全部任务",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "taskflow",
+      "args": ["list", "--all"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "TaskFlow: 添加示例任务",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "taskflow",
+      "args": ["add", "学习 VS Code 调试"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
+
